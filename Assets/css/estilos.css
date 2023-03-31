@@ -111,6 +111,15 @@ a {
 .foto9 {
     background-image: url(../Images/foto9.jpg);
 }
+.foto10 {
+    background-image: url(../Images/foto10.jpg);
+}
+.foto11 {
+    background-image: url(../Images/foto11.jpg);
+}
+.foto12 {
+    background-image: url(../Images/foto12.jpg);
+}
 /*shop*/
 .contenedor1 {
     width: auto;
@@ -234,7 +243,7 @@ footer i {
 @media only screen and (min-width: 1024px) {
     .contenedor { 
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 500px;
+        grid-template-rows: 500px 500px 500px 500px;
     }
     .contenedor1 { 
         grid-template-columns: 1fr 1fr 1fr;
