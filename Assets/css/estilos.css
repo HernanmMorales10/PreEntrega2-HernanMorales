@@ -1,0 +1,247 @@
+@font-face {
+    font-family: "Zt";
+    src: url(../Font/ZtChablisSemiBold-BWgLG.ttf);
+}
+@font-face {
+    font-family: "Ztp1";
+    src: url(../Font/MYRIADPRO-REGULAR.OTF);
+} 
+@font-face {
+    font-family: "ztp2";
+    src: url(../Font/Poppins-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoPh {
+    padding-left: 20px;
+    width: 150px;
+    
+}
+
+.logo1 {
+    width: 100px;
+    height: 30px;
+
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display:inline;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+a { 
+    text-decoration: none;
+    color: black;
+    font-family: Georgia;
+}
+
+
+.titulo1 {
+    text-align: center;
+    font-family: "Zt";
+    color: #333333;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 70px;
+}
+.p1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: "Ztp1";
+}
+.contenedor {
+    width: auto;
+    height: auto;
+    background-color: rgb(61, 60, 59);
+    display: grid;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px 400px;
+    grid-gap: 5px 5px;
+}
+.foto:hover {
+    filter: contrast(80%);
+    transition: all 0,50s;
+}
+
+.foto {
+    background-color: aquamarine;
+    
+    background-size: cover;
+    background-position: center;
+} 
+.foto1 {
+    background-image: url(../Images/foto1.jpg);
+
+}
+.foto2 {
+    background-image: url(../Images/foto2.jpg);
+    
+}
+.foto3 {
+    background-image: url(../Images/foto3.jpg);
+}
+.foto4 {
+    background-image: url(../Images/foto4.jpg);
+}
+.foto5 {
+    background-image: url(../Images/foto5.jpg);
+}
+.foto6 {
+    background-image: url(../Images/foto6.jpg);
+}
+.foto7 {
+    background-image: url(../Images/foto7.jpg);
+}
+.foto8 {
+    background-image: url(../Images/foto8.jpg);
+}
+.foto9 {
+    background-image: url(../Images/foto9.jpg);
+}
+/*shop*/
+.contenedor1 {
+    width: auto;
+    height: auto;
+    background-color: rgb(61, 60, 59);
+    display: grid;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    grid-gap: 5px 5px;
+}
+.fotoa {
+    background-color: aquamarine;
+    
+    background-size: cover;
+    background-position: center;
+}
+.fotoa:hover {
+    filter: contrast(80%);
+    transition: all 0,50s;
+}
+.fotob {
+    background-image: url(../Images/acciones.png);
+
+}
+.fotoc {
+    background-image: url(../Images/presets.png);
+    
+}
+.fotod {
+    background-image: url(../Images/agenda.png);
+}
+.boton1 {
+text-decoration:none;
+font-weight: 60;
+font-size: 20px;
+color:#ffffff;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+font-family: "Ztp1";
+border-color: #d8d8d8;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+}
+
+.sobremi {
+    
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.nleft {
+    width: 50%;
+    
+}
+.div {
+    font-size: 80px;
+    text-align: center;
+    line-height: 80%;
+    margin-top: 10%;
+    font-family: "ztp2";
+}
+.nright {
+    padding: 100px;
+    width: 50%;
+   
+    
+}
+.contacto1 {
+    text-align: center;
+    padding-top: 10px;
+}
+    .parrafoContacto {
+        font-weight: bold;
+        padding-top: 50px;
+    }
+    .parrafoContact1 {
+        padding-bottom: 50px;
+    }
+footer {
+    background-color: #979797;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Ztp1";
+    padding: 20px;
+}
+footer i {
+    text-align: start;
+    display: flex;
+    justify-content: space-between 500px;
+    flex-wrap: wrap;
+    letter-spacing: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 400px 400px 400px 400px;
+    }
+    .contenedor1 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 400px 400px 400px 400px 400px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .contenedor {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px ;
+    }
+    .contenedor1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 400px ;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .contenedor { 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 500px;
+    }
+    .contenedor1 { 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 500px;
+    }
+    .titulo1 {
+        text-align: center;
+    }
+}
+
